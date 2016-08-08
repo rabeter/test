@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>宠物石头</title>
+		<script type="text/javascript">
+			function touchRock(){
+				var userName = prompt("What is your name?","Enter your name here.");
+				if(userName){
+					alert("It is good to meet you," + userName + ".");
+					document.getElementById("rockImg").src = "2.jpg";
+				}
+			}
+		</script>
+	</head>
+	<body onload="alert('Hello, Im your prt rock.');">
+		<div style="margin-top: 100px; text-align:center">
+			<img src="1.ipg" id="rockImg" alt="iRock" style="cursor:pointer" onclick="touchRock()"/>
+		</div>
+	</body>
+</html>
