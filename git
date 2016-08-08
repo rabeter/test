@@ -1,0 +1,4 @@
+git 使用命令行
+git status        //查看区域内的所有文件
+git add hello.cpp  //提交文件从工作区提交到暂存区
+git commit-m "文件描述"   //提交暂存区域内的代码到git仓库
