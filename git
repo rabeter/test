@@ -2,3 +2,11 @@ git 使用命令行
 git status        //查看区域内的所有文件
 git add hello.cpp  //提交文件从工作区提交到暂存区
 git commit-m "文件描述"   //提交暂存区域内的代码到git仓库
+git push              //提交本地仓库到github上
+
+//初始化git及其创建仓库
+1 设置用户名
+git config --global user.name 'rabeter'
+2 设置用户邮箱
+git config --global user.email 'qingjian1993@126.com'
+
